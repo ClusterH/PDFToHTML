@@ -1,0 +1,493 @@
+@font-face {
+    font-family: Cairo-Bold;
+    src: url(../Fonts/Cairo/Cairo-Bold_0.ttf);
+  }
+  @font-face {
+    font-family: Cairo-Italic;
+    src: url(../Fonts/Cairo/Cairo-Italic.ttf);
+  }
+  @font-face {
+    font-family: Cairo-Light;
+    src: url(../Fonts/Cairo/Cairo-Light.ttf);
+  }
+  @font-face {
+    font-family: Cairo-Regular;
+    src: url(../Fonts/Cairo/Cairo-Regular.ttf);
+  }
+  @font-face {
+    font-family: Cairo-SemiBold;
+    src: url(../Fonts/Cairo/Cairo-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Gilroy-ExtraBold;
+    src: url(../Fonts/Gilroy/gilroy-extrabold.otf);
+  }
+  @font-face {
+    font-family: Gilroy-Light;
+    src: url(Fonts/Gilroy/gilroy-light.otf);
+  }
+
+body {
+    width: 100%;
+    height: auto;
+    padding: 40px 60px 0px 60px;
+    margin: 0px;
+    font-family: Cairo-Regular;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3cc;
+    background-color: #fff;
+    max-width: 1280px;
+    /* box-sizing: border-box; */
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log_top {
+    width: 20%;
+}
+
+.top_middle {
+    width: 25%;
+    padding-left: 60px;
+}
+
+.requisition {
+    color: #3cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.input_top {
+    font-size: 1.3vw;
+    font-weight: 100;
+    font-family: Cairo-Light;
+}
+
+.requisition_input,
+.specimen_input {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #3cc;
+    margin-left: 10px;
+    /* margin-bottom: 25px; */
+    width: 100%;
+}
+
+.state_process {
+    width: 35%;
+}
+
+.state_process_img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.state_process_detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.five_images {
+    width: 14%;
+    /* flex-grow: 4 */
+}
+
+.first_image_div {
+    width: 22% !important;
+    /* flex-grow:3 ; */
+}
+
+.image_detail {
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    font-family: Cairo-Bold;
+}
+
+.image_detail,
+p {
+    font-size: 0.8vw;
+    font-weight: bold;
+    color: #003043;
+    text-align: center;
+    margin: 0px;
+}
+
+.line_between_img {
+    width: 10%;
+    /* flex-grow: 2; */
+    height: 1px;
+    border-bottom: 1px solid;
+}
+
+.line_between_detail {
+    width: 10%;
+    height: 1px;
+    border-bottom: 1px solid;
+    color: #fff;
+}
+/* .first_image_datail {
+    width:  100%;
+    height: 1px;
+    border-bottom: 1px solid;
+} */
+
+/* =========header End=========== */
+/* =========Container start========== */
+
+.container {
+    width: 100%;
+}
+/* Information Container Start */
+.information_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.information_column {
+    width: 45%;
+    /* height: 50%; */
+}
+
+.information_sub_field {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.infomation_title_bar {
+    text-align: right;
+    width: 100%;
+}
+
+.information_title_text {
+    font-weight: bold;
+    font-size: 1.4vw !important;
+    font-family: Cairo-Bold;
+
+}
+
+.information_title_img {
+    width: 10%;
+}
+
+.information_title_line {
+    border-top: 2px solid;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #3cc;
+}
+
+.information_body {
+    width: 100%;
+}
+
+.every_info_field {
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    width: 100%;
+}
+
+.input_name_label {
+    font-size: 1.2vw;
+    font-weight: 100;
+    clear: both;
+}
+
+.text_black_color {
+    color: #003043;
+}
+.text_green_color {
+    color: #3cc;
+}
+.text_red_color {
+    color: #f66;
+}
+.text_yellow_color {
+    color: #cdde5f;
+}
+.detail_sm_size {
+    font-size: 0.9vw;
+}
+.check_label_bold {
+    font-weight: bold !important;
+}
+
+.every_info_input {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #3cc;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 12px;
+    font-family: Cairo-Regular;
+    font-weight: 500;
+}
+
+.dob_input {
+    width: 30%;
+    margin-left: 0px;
+}
+
+.check_male,
+.check_female {
+    /* width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 2px solid #8cad2d;
+    background-color: #fff; */
+    display: block;
+    margin-right: 5px;
+}
+
+.zip_code_input,
+.state_input {
+    width: 35%;
+}
+.email_input {
+    width: 85% !important;
+}
+
+.med_rec_patient {
+    width: 60%;
+}
+/* patient Field End */
+
+/* Specimen Field Start */
+
+.text_black_color {
+    color: #003043;
+}
+
+.collection_date_input,
+.time_input {
+    width: 30%;
+}
+
+.send_data {
+    width:80%;
+}
+.specimen_type {
+    width: 70%;
+}
+.last_input {
+    width: 25%;
+}
+.check_blood, .check_saliva, .check_buccal_swab, .check_other {
+    font-family: Cairo-Bold;
+}
+/* Specimen Field End */
+
+/* Clinical Field Start */
+.diagnosis_icd_input {
+    width: 35%;
+}
+
+.note_textarea {
+    border-width: 1px 1px 1px 1px;
+    border-color: #3cc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px 0px 0px !important;
+    width: 100%;
+    height: 120px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Ordering physician/sendingfacilty start */
+.dr_name_address {
+    border: 1px solid #3cc;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 120px;
+    color: #003043;
+}
+/* Billing Information Start */
+.institutional_invoice_field, .insurance_field {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    width: 100%;
+}
+.check_insurance {
+    font-size: 1.1vw;
+}
+.thin_text {
+    font-family: Cairo-Regular;
+}
+
+.check_send_invoice, .check_check{
+    margin-left: 30px;
+}
+/* Family History Start */
+.family_history_textarea {
+    border-width: 1px 1px 1px 1px;
+    border-color: #3cc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px 0px 0px !important;
+    width: 100%;
+    height: 190px;
+    font-size: 16px;
+    font-family: "Gilroy-ExtraBold";
+    font-weight: 500;
+}
+/* Test Requested Container Start */
+.test_request_container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.test_requested_body {
+    width: 100%;
+}
+.test_title_img {
+    width: 5%;
+}
+.top_detail_text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meet_NCCN_guideline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.left_check, .right_check {
+    width: 45%;
+    /* margin-left: 50px; */
+    /* align-items: flex-start; */
+}
+.check_label_field {
+    margin-left: 20px;
+}
+.comprehensive_check, .focus_check {
+    display: flex;
+    align-content: flex-start;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.cuidline_check_img {
+    width: 10%;
+}
+.check_label_field > p {
+    font-size: 14px;
+    color: #3cc;
+    text-align: left;
+    margin-left: 20px;
+    font-family: Cairo-regular;
+}
+
+/* Phsician/Legal Container Start */
+.physician_guardian_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.physician_subjection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    font-size: 18px;
+    /* font-family: "Cairo-Bold"; */
+}
+.physician_content {
+    word-break: break-all;
+}
+
+.signature_input {
+    width: 45%;
+}
+.date_input {
+    width: 100%;
+}
+.red_input_label {
+    font-family: Cairo-Bold;
+}
+.patient_legal_consent {
+    font-size: 18px;
+}
+.patient_signature_input {
+    width: 32%;
+}
+
+hr{
+	/*width: 95%;*/
+	/*margin-top: 2%; */
+	/*margin-left: 0%: */
+	border: 1px solid #169DD8;
+	background: #169DD8;
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+footer.second_page_footer{
+	width: 100%;
+}
+.footer_text_line{
+	/*background: url("footer.png");*/
+	width: 95%;
+	padding-left: 2%;
+	padding-right: 2%;
+	display: flex;
+	font-weight: bold;
+	justify-content: space-between;
+}
+.footer_image{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Responsivble */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
